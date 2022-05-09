@@ -1,0 +1,5 @@
+./basic_tests -p ../sudheera/abt -r ./run_experiments
+
+./advanced_tests -p ../sudheera/gb -r ./run_experiments
+
+./run_experiments -m 1000 -l 0.1 -c 0.2 -t 50 -w 10 -p ../sudheera/abt
